@@ -1,0 +1,134 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:larger;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body{
+  background-image: url(img/fon.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title{
+  margin-top: 1%;
+  font-size: 55px;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  background: linear-gradient(to left, #5F4A92, #2E1E51);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-input{
+  text-decoration: none;
+  margin-top: 1%;
+  border-radius: 25px;
+  position: relative;
+  background: linear-gradient(#402F71, #A77AE9);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  height: 750px;
+  box-shadow: 15px 15px 8px 0 rgba(0, 0, 0, 0.322);
+}
+
+.form-input p{
+  color: white;
+  font-weight: bolder;
+  font-size: 65px;
+}
+
+.button{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #6A559E;
+  color: white;
+  border-radius: 20px;
+  padding: 8px;
+  font-weight: bolder;
+  border: 0px;
+  width: 60%;
+  height: 20%;
+  transition: background-color 0.3s ease;
+  box-shadow: 2px 5px 8px 5px rgba(0, 0, 0, 0.322);
+}
+
+.button:hover {
+  background-color: #4f4172; /* Изменение оттенка при наведении */
+}
+
+.form-input input{
+  border-radius: 20px;
+  padding: 8px;
+  border: 0px;
+}
+
+.reg-name{
+  margin-bottom: 10%;
+}
+
+.auth-name{
+  margin-bottom: 15%;
+  margin-top: 0%;
+}
+
+.reg-input{
+  margin-bottom: 10px;
+  width: 94%;
+  height: 13%;
+}
+
+.auth-input{
+  width: 94%;
+  height: 18%;
+  margin-bottom: 3%;
+}
+
+.recovery-name{
+  margin-bottom: 10%;
+  margin-top: -5%;
+}
+
+.btn-auth{
+  margin-top: 8%;
+}
+
+.entrance {
+  position: relative;
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+}
+
+.entrance:after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: .3s;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.entrance:hover:after {
+  width: 100%;
+}
+
+.bottom {
+  margin-bottom: 50px;
+}

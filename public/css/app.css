@@ -1,0 +1,91 @@
+html{
+  background-image: url(img/home.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-y: hidden; overflow-x: hidden;
+}
+
+.contact{
+  font-weight:bolder;
+  font-size: 160%;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 2%;
+}
+
+.catalog {
+  left: 2%;
+  position: relative;
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.catalog:after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: .3s;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.catalog:hover:after {
+  width: 100%;
+}
+
+.slogan{
+  position: relative;
+  left: 2%;
+  font-size: 200%;
+  font-weight: bolder;
+  text-align: justify;
+  color: white;
+  width: 21em;
+  margin-bottom: 2%;
+}
+
+.title{
+  position: relative;
+  left: 2%;
+  margin-top: 1%;
+  margin-bottom: 8%;
+  width: 30%;
+  font-size: 55px;
+  display: flex;
+  font-weight: bolder;
+  background: linear-gradient(to left, #A77AE9, #D6C9FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-profile{
+  position: relative;
+  text-decoration: none;
+  color: #A77AE9;
+  font-size: 30px;
+}
+.profile{
+  color: #A77AE9;
+  position: fixed;
+  right: 2%;
+}
+
+svg|a:link,
+svg|a:visited {
+  cursor: pointer;
+}
